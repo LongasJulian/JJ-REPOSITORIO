@@ -1,0 +1,41 @@
+.letra{
+    background: linear-gradient(black,white);
+        -webkit-background-clip: text;
+      color: transparent;
+}
+.fondo{
+    background-color: #012102;
+}
+iframe{
+    border: none;
+}
+.carousel-inner img{
+	width: 100%;
+}
+.carousel-caption h3{
+	text-shadow: 5px 5px 5px black;
+	font-size: 3em;
+}
+.carousel-item{
+    height: 65vh;
+    min-height: 300px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.tipografia{
+    color: #0A351C;
+}
+
+.p_1:hover{
+    background-color: #DDDDDD; 
+	color: black;
+}
+
+@media screen and (max-width: 800px){
+    .imagennav{
+        display: none;
+    }
+}
