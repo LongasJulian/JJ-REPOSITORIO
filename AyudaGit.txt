@@ -1,0 +1,40 @@
+ls
+
+git clone /*Link del repositorio*/
+
+dir
+
+cd /*Nombre de carpeta*/
+
+dir
+
+git status
+
+git checkout gh-pages
+
+git status
+
+dir
+
+mkdir /*nombre carpeta nueva*/
+
+cd /*nombre carpeta nueva*/
+
+dir
+
+cd ..
+
+git status
+
+git add .
+
+git status
+
+git commit -m"/*mensaje*/"
+
+git status
+
+git push
+
+
+
